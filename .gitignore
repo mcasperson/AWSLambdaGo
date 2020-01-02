@@ -4,6 +4,8 @@
 *.dll
 *.so
 *.dylib
+*.zip
+AWSLambdaGo
 
 # Test binary, built with `go test -c`
 *.test
@@ -15,4 +17,3 @@
 # vendor/
 
 .idea
-*.exe
