@@ -4,4 +4,4 @@
 $env:GOARCH="amd64"
 $env:GOOS="linux"
 go build
-~\Go\Bin\build-lambda-zip.exe -o .\AWSLambdaGo.zip .\AWSLambdaGo
+& "$($env:GOPATH)\Bin\build-lambda-zip.exe" -o .\AWSLambdaGo.zip .\AWSLambdaGo
